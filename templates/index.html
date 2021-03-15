@@ -1,0 +1,448 @@
+{% extends 'base.html' %} {% load static %} {% block title %}Home{% endblock title %} {% block body %}
+<div class="container-fluid px-0">
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+
+                <img src="{%static 'home1.jpg' %}" class="d-block w-100" alt="..." style="    width: 100%;
+                    height: 720px;
+                    background-position: 50% 0;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;">
+                <div class="overlay-bg"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="slider-dtl">
+
+                        <div class="slider-heading text-white"> Welcome to the Canada Visa Expert</div>
+                        <h2 class="slider-sub-heading text-white">Since 2016 we are experts in the global industry
+                        </h2>
+                        <div class="slider-btn">
+                            <a href="/study">
+                                <button type="button" class="btn btn-white">Our Services <i
+                                        class="flaticon-next"></i></button></a>
+                            <a href="/contact">
+                                <button type="button" class="btn btn-white">Contact Us<i class="flaticon-next"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{%static 'home2.jpg' %}" class="d-block w-100" alt="..." style="    width: 100%;
+                    height: 720px;
+                    background-position: 50% 0;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;">
+                <div class="overlay-bg"></div>
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="slider-dtl">
+                        <div class="slider-heading text-white">Welcome to the Canada Visa Expert</div>
+                        <h1 class="slider-sub-heading text-white">Since 2016 we are experts in the global industry</h1>
+                        <div class="slider-btn">
+                            <a href="/work">
+                                <button type="button" class="btn btn-white">Our Services <i
+                                        class="flaticon-next"></i></button></a>
+                            <a href="/contact">
+                                <button type="button" class="btn btn-white">Contact Us<i class="flaticon-next"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+
+                <img src="{%static 'home3.jpg' %}" class="d-block w-100" alt="..." style="    width: 100%;
+                    height: 720px;
+                    background-position: 50% 0;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    position: relative;">
+                <div class="overlay-bg"></div>
+                <div class="carousel-caption d-none d-md-block">
+
+                    <div class="slider-dtl">
+                        <div class="slider-heading text-white">Welcome to the Canada Visa Expert</div>
+                        <h1 class="slider-sub-heading text-white">Since 2016 we are experts in the global industry</h1>
+                        <div class="slider-btn">
+                            <a href="/business">
+                                <button type="button" class="btn btn-white">Our Services <i
+                                        class="flaticon-next"></i></button></a>
+                            <a href="/contact">
+                                <button type="button" class="btn btn-white">Contact Us<i class="flaticon-next"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+
+    </div>
+    <div class="py-5 bg-image-full" style="background-image: url({%static '5.jpg' %});">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="about-block">
+                        <div class="about-points-block">
+                            <div class="about-points-icon">
+                                <img src="{% static 'apply1.jpg' %}" class="img-fluid" alt="home-icon">
+                            </div>
+                            <div class="about-point-dtl">
+                                <div class="about-point-heading">step 01</div>
+                                <div class="about-point-text">Apply Online</div>
+                            </div>
+                        </div>
+                        <div class="number">01</div>
+                        <div class="about-type">
+                            <p>It is a long established fact that a reader will be distracted by the readable content
+                                page.
+                            </p>
+                            <a href="#" class="btn btn-link">Read More<i class="flaticon-next"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="about-block">
+                        <div class="about-points-block">
+                            <div class="about-points-icon">
+                                <img src="{% static 'apply2.jpg' %}" class="img-fluid" alt="home-icon">
+                            </div>
+                            <div class="about-point-dtl">
+                                <div class="about-point-heading">step 02</div>
+                                <div class="about-point-text">Submit Documents</div>
+                            </div>
+                        </div>
+                        <div class="number">02</div>
+                        <div class="about-type">
+                            <p>It is a long established fact that a reader will be distracted by the readable content
+                                page.
+                            </p>
+                            <a href="#" class="btn btn-link">Read More<i class="flaticon-next"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="about-block">
+                        <div class="about-points-block">
+                            <div class="about-points-icon">
+                                <img src="{% static 'apply3.jpg' %}" class="img-fluid" alt="home-icon">
+                            </div>
+                            <div class="about-point-dtl">
+                                <div class="about-point-heading">step 03</div>
+                                <div class="about-point-text">Receive Visa</div>
+                            </div>
+                        </div>
+                        <div class="number">03</div>
+                        <div class="about-type">
+                            <p>It is a long established fact that a reader will be distracted by the readable content
+                                page.
+                            </p>
+                            <a href="#" class="btn btn-link">Read More<i class="flaticon-next"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section text-left">
+                        <h1 class="section-heading">5+ Experiences in Visa Service</h1>
+                        <p>There anyone who loves or pursues nor desires to obtain pain of itself, bet it is pain, but
+                            because occasionally can packages as their default.</p>
+                    </div>
+                    <div class="about-dtl">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <div class="about-icon">
+                                    <img src="{% static 'index-icon1.jpg' %}" class="img-fluid" alt="about-img">
+                                </div>
+                            </div>
+                            <div class="col-lg-10">
+                                <div class="about-sub-heading">
+                                    <h4 class="about-heading">Our Strategy</h4>
+                                    <p>It is a long established fact that a reader will be distracted by the readable
+                                        content page.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <div class="about-icon">
+                                    <img src="{% static 'index-icon2.jpg' %}" class="img-fluid" alt="about-img">
+                                </div>
+                            </div>
+                            <div class="col-lg-10">
+                                <div class="about-sub-heading">
+                                    <h4 class="about-heading">Our Mission</h4>
+                                    <p>It is a long established fact that a reader will be distracted by the readable
+                                        content page.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <div class="about-icon">
+                                    <img src="{% static 'index-icon3.jpg' %}" class="img-fluid" alt="about-img">
+                                </div>
+                            </div>
+                            <div class="col-lg-10">
+                                <div class="about-sub-heading">
+                                    <h4 class="about-heading">Our Achievements</h4>
+                                    <p>It is a long established fact that a reader will be distracted by the readable
+                                        content page.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-right">
+                    <div class="about-img">
+                        <img src="{% static 'about-men.jpg' %}" class="img-fluid" alt="about-img">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section id="visa-map" class="visa-map-main-block">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-7">
+                    <div class="visa-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8490775.250310028!2d-110.755012!3d58.69737299999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0d03d337cc6ad9%3A0x9968b72aa2438fa5!2sCanada!5e0!3m2!1sen!2sin!4v1614841612804!5m2!1sen!2sin"
+                     width="700" height="360" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-4">
+                    <div class="map-dtl">
+                        <div class="section">
+                            <h2 class="section-heading">We have branches all over Canada</h2>
+                        </div>
+                        <p>There anyone who loves or pursues nor desires to obtain pain of itself, bet it is pain,
+                            but because occasionally can packages as their default who loves or pursues nor desires
+                            to obtain pain of the hellium.</p>
+                        <a href="country-list.html" class="btn btn-primary" title="View Location">View Location <i
+                                class="flaticon-next"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="visa-Services" class="visa-Services-main-block">
+        <div class="container-fluid">
+            <div class="row no-gutters">
+                <div class="col-lg-4">
+                    <div class="services-dtl">
+                        <div class="section">
+                            <h1 class="section-heading text-white">Our Services</h1>
+                            <p>There anyone who loves or pursues nor desires to obtain pain of itself, bet it is
+                                pain, but because desires to obtain pain of the hellium.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="service-block" style="background-image: url({% static 'visa-services.jpg' %})">
+                        <div class="overlay-bg"></div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="service-dtl-icon">
+                                    <div class="row">
+                                        <div class="offset-xl-2 col-lg-2">
+                                            <div class="service-icon">
+                                                <i class="flaticon-briefcase"></i>
+                                            </div>
+                                        </div>
+                                        <div class="offset-lg-2 offset-xl-0 col-lg-8">
+                                            <div class="visa-service-dtl">
+                                                <h4 class="visa-service-heading"><a href="services-details.html"
+                                                        title="business visa">Business Visa</a></h4>
+                                                <p>It is a long established fact that and reader will by the
+                                                    readable based of content page banned.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="service-dtl-icon">
+                                    <div class="row">
+                                        <div class="offset-xl-2 col-lg-2">
+                                            <div class="service-icon">
+                                                <i class="flaticon-graduation-hat"></i>
+                                            </div>
+                                        </div>
+                                        <div class="offset-lg-2 offset-xl-0 col-lg-8">
+                                            <div class="visa-service-dtl">
+                                                <h4 class="visa-service-heading"><a href="services-details.html"
+                                                        title="Student Visa">Student Visa</a></h4>
+                                                <p>It is a long established fact that and reader will by the
+                                                    readable based of content page banned.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="service-dtl-icon">
+                                    <div class="row">
+                                        <div class="offset-xl-2 col-lg-2">
+                                            <div class="service-icon">
+                                                <i class="flaticon-lifebuoy"></i>
+                                            </div>
+                                        </div>
+                                        <div class="offset-lg-2 offset-xl-0 col-lg-8">
+                                            <div class="visa-service-dtl">
+                                                <h4 class="visa-service-heading"><a href="services-details.html"
+                                                        title="Transit Visa">Work Visa</a></h4>
+                                                <p>It is a long established fact that and reader will by the
+                                                    readable based of content page banned.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="service-dtl-icon">
+                                    <div class="row">
+                                        <div class="offset-xl-2 col-lg-2">
+                                            <div class="service-icon">
+                                                <i class="flaticon-aeroplane"></i>
+                                            </div>
+                                        </div>
+                                        <div class="offset-lg-2 offset-xl-0 col-lg-8">
+                                            <div class="visa-service-dtl">
+                                                <h4 class="visa-service-heading"><a href="services-details.html"
+                                                        title="Tourist Visa">Tourist Visa</a></h4>
+                                                <p>It is a long established fact that and reader will by the
+                                                    readable based of content page banned.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="News" class="blog-main-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-8">
+                    <div class="section">
+                        <h1 class="section-heading">Recent News</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-4">
+                    <div class="blog-btn">
+                        <a href="blog.html" class="btn btn-primary" title="view all">View All<i
+                                class="flaticon-next"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-xl-6 col-md-6">
+                    <div class="blog-block">
+                        <div class="row">
+                            <div class="col-xl-5 col-lg-3">
+                                <div class="blog-img">
+                                    <a href="blog-detail.html" title="blog"><img src="{% static 'blog1.jpg' %}"
+                                            alt="blog"></a>
+                                    <div class="meta-dtl">
+                                        <a href="#" title="date">
+                                            <div class="date">30</div>
+                                            <div class="month">Oct</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-7 col-lg-9">
+                                <div class="blog-dtl">
+                                    <div class="blog-sub-heading">
+                                        <a href="blog-detail.html" title="business visa">Business Visa</a>
+                                    </div>
+                                    <h6 class="blog-heading"><a href="#" title="blog">Various versions have evols
+                                            over the years</a></h6>
+                                    <p>It is a long established fact that and reader will by the readable content
+                                        page banned.</p>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-sm-6 col-6">
+                                            <a href="blog-detail.html" class="btn btn-link">Read More<i
+                                                    class="flaticon-next"></i></a>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-6 col-6 text-right">
+                                            <div class="blog-icon">
+                                                <a href="blog-detail.html" title=""><i class="far fa-comment"></i>37</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-xl-6 col-md-6">
+                    <div class="blog-block">
+                        <div class="row">
+                            <div class="col-xl-5 col-lg-3">
+                                <div class="blog-img">
+                                    <a href="blog-detail.html" title="blog"><img src="{% static 'blog2.jpg' %}"
+                                            alt="blog"></a>
+                                    <div class="meta-dtl">
+                                        <a href="#" title="date">
+                                            <div class="date">22</div>
+                                            <div class="month">Oct</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-7 col-lg-9">
+                                <div class="blog-dtl">
+                                    <div class="blog-sub-heading">
+                                        <a href="blog-detail.html" title="business visa">Tourist Visa</a>
+                                    </div>
+                                    <h6 class="blog-heading"><a href="#" title="blog">Words which don't looked a
+                                            slightly believable</a></h6>
+                                    <p>It is a long established fact that and reader will by the readable content
+                                        page banned.</p>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-sm-6 col-6">
+                                            <a href="blog-detail.html" class="btn btn-link">Read More<i
+                                                    class="flaticon-next"></i></a>
+                                        </div>
+                                        <div class="col-lg-6 col-sm-6 col-6 text-right">
+                                            <div class="blog-icon">
+                                                <a href="blog-detail.html" title=""><i class="far fa-comment"></i>40</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endblock body %}

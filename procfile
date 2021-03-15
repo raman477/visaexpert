@@ -1,0 +1,1 @@
+web: gunicorn visaexpert.wsgi --log-file -
